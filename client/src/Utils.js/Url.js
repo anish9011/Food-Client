@@ -1,4 +1,3 @@
 export const Url = () => {
-    return "http://localhost:5000";
-    // return "http://localhost:5000";
+    return "https://food-server-2.onrender.com";
   };
