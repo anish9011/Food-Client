@@ -1,0 +1,311 @@
+.banner {
+    margin: 5% 10%;
+    background-color: #D9D9D9;
+    padding: 60px;
+    border-radius: 12px;
+}
+
+.mainBanner{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.mainBanner >h1{
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    margin-top: -1.5%;
+}
+.text {
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    gap: 1%;
+    width: 55%;
+}
+
+.text h1 {
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 80%;
+}
+
+.text h2{
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 80%;
+    border: 1px solid #FC8A06;
+    border-radius: 100px;
+    padding:8px;
+    margin-top: -2%;
+}
+
+.innerBanner {
+    background-color: white;
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.firstBanner {
+    padding: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -10%;
+}
+
+.firstBanner h1 {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    background-color: #FC8A06;
+    border: none;
+    border-radius: 100px;
+    width: 100%;
+    margin-left: -2%; 
+    padding: 2%;
+    box-sizing: border-box;
+}
+
+
+.secondBanner{
+    margin-right: 2%;
+}
+
+
+.innerBanner >h1{
+    display: none;
+}
+
+.registerContainer{
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media (min-width: 1024px) {
+    .firstBanner h1 {
+        font-size: 12px; 
+        width: 75%; 
+        margin-left: -1%; 
+        padding: 3%; 
+    }
+}
+
+@media (min-width: 1200px) {
+    .firstBanner h1 {
+        font-size: 12px;
+        width: 50%; 
+        text-align: left;
+    }
+}
+
+
+.firstBanner h2 {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    margin-top: 10px; /* Adds spacing between h2 elements */
+}
+
+span.promotions {
+    display: block;
+    margin-top: 5%; /* Adds space above the promotions span */
+    text-align: left;
+}
+
+.secondBanner {
+    display: flex;
+    justify-content: center; /* Centering the content horizontally */
+    align-items: center; /* Centering vertically */
+    width: 100%;
+    margin-top: 3%; /* Optional: Adds some space above */
+    gap:2%;
+    padding-bottom: 3%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #D9D9D9;
+    padding: 10px;
+    border-radius: 10px; 
+    width: 150px; 
+    height: auto; 
+    text-align: center;
+}
+
+.card h1 {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    margin-bottom: 10px; 
+}
+
+.card img {
+    width: 70px;
+    margin-bottom: 10px;
+}
+
+.card h2 {
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    margin-top: 10px; 
+}
+
+span.promotions {
+    display: block;
+    margin-top: -3%;
+}
+
+.registerContainer{
+    margin:2% 10%;
+    padding: 35px;
+    background-color: #FC8A06;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    margin-bottom: 8%;
+}
+
+.content{
+    border-right:1px solid white;
+    padding: 20px;
+}
+
+.content1{padding: 20px;}
+
+.content h1, .content1 h1{
+    font-family: Poppins;
+    font-size: 42px;
+    font-weight: 300;
+    line-height: 38px;
+    text-align: center;
+    color:white;
+    margin-top: -8%;
+}
+
+.content h2, .content1 h2 {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 38px;
+    text-align: center;
+    white-space: nowrap; 
+    color:white;
+}
+
+
+@media (min-width: 400px) and (max-width: 600px) {
+        .text{
+            display: none;
+        }
+        .banner{
+            background-color: white;
+        }
+
+        .innerBanner{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .secondBanner{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+            background-color: black;
+            padding: 40px;
+            border-radius: 12px;
+        }
+        .registerContainer{
+            margin:2% 20%;
+            padding: 25px;
+            background-color: #FC8A06;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            border-radius: 12px;
+            margin-bottom: 20%;
+        }
+        .content{
+            border-bottom:1px solid white;
+            border-right:none;
+            padding: 20px;
+            margin-left: 0%;
+        }
+        .content1{padding: 20px;
+            margin-left: -3%;
+        }
+
+.content h1, .content1 h1{
+    font-family: Poppins;
+    font-size: 42px;
+    font-weight: 300;
+    line-height: 38px;
+    text-align: center;
+    color:white;
+    margin-top: 0%;
+}
+
+.content h2, .content1 h2 {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 38px;
+    text-align: center;
+    white-space: nowrap; 
+    color:white;
+}
+        .content1 {
+            margin-left: 20%;
+        }
+
+.mainBanner{
+    width:300px;
+    margin-left: -12%;
+}
+.firstBanner{
+    width:300px;
+    margin-left: 5%;
+}
+
+}

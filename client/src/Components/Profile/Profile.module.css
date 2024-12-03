@@ -1,0 +1,476 @@
+.arrowbanner {
+    margin-left: 9%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5%;
+    width: 23%;
+  }
+  
+  .arrowbanner h1 {
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    text-align: left;
+    margin-right: 10px;
+  }
+  
+  .Container{
+    padding: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.profile {
+    display: flex;
+    justify-content: flex-start; /* Distribute space, push the last item to the end */
+    align-items: center;
+    width: 100%;
+    gap:20px;
+}
+
+
+.profile h1 {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    text-align: left;
+}
+
+.profile button {
+    background-color: #FC8A06;
+    font-family: Poppins;
+    font-size: 14.98px;
+    font-weight: 400;
+    line-height: 22.47px;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    width: 10%; /* Adjust width of the button based on content */
+    text-align: center;
+    color: white;
+    margin-left:auto;
+}
+
+.outerDiv{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.innerDiv {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  grid-template-rows: repeat(2, auto);
+  gap: 20px; 
+  padding:20px;
+  border-bottom: 1px solid #000000;
+}
+
+.content h1{
+  font-family: Poppins;
+  font-size: 14.98px;
+  font-weight: 400;
+  line-height: 22.47px;
+  text-align: left;
+}
+
+.content input{
+  background-color: #F9F9F9;
+  border: none;
+}
+
+.payment{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+}
+
+.innerPay{
+  margin-top: 2%;
+}
+
+.innerPay h1{
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: left;
+}
+
+.debitDiv {
+  display: flex;
+  align-items: center; 
+  justify-content: space-between; 
+  width: 70%;
+  max-width: 350px; 
+  gap: 20px;
+  border: 0.5px solid #00000080;
+  border-radius: 12px;
+  padding: 10px;
+  margin-top: 3%;
+}
+
+.debit {
+  flex: 0 0 auto; 
+}
+
+.text {
+  flex-grow: 1; 
+}
+
+.edit {
+  flex-shrink: 0; 
+  margin-right: 50px;
+}
+.text h1{
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+}
+
+.text h2{
+  font-family: Poppins;
+  font-size: 14.98px;
+  font-weight: 400;
+  line-height: 22.47px;
+  text-align: left;
+}
+
+
+.mainDiv {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; 
+  justify-content: flex-start;
+}
+
+
+.modalWrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modalContent {
+  background-color: #fff;
+  padding: 20px;
+  width: 600px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.modalContent h1{
+  font-family: Poppins;
+  font-size: 34px;
+  width:500px;
+  font-weight: 600;
+  line-height: 48px;
+  text-align: left;
+}
+
+.formGroup {
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: flex-start;
+  gap:-10%;
+  margin-top: 2%;
+}
+
+.formGroup h1 {
+  margin: 0;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+}
+
+.formGroup .inputField {
+  width: 100%;
+  padding: 8px;
+  margin-top: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-left: -30%;
+}
+
+.btnGrp{
+  background-color: #FC8A06;
+  width: 107.5%;
+  height: 80px;
+  margin-left: -3.5%;
+  margin-bottom: -5%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+}
+
+.saveButton {
+  background-color:white;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.saveButton:hover {
+  background-color: #45a049;
+}
+
+.closeButton {
+  background: none;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.removeButton{
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #663700;
+  color:white;
+  margin-right: 35%;
+}
+
+.closeButton:hover {
+  background-color: #e53935;
+}
+
+
+@media (min-width: 400px) and (max-width: 600px) {
+  .arrowbanner {
+    margin-left: 9%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5%;
+    width: 50%;
+  }
+  
+  .arrowbanner h1 {
+    font-family: Poppins;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 48px;
+    text-align: left;
+    margin-right: 10px;
+  }
+.profile img{
+  display: none;
+}
+.profile h1{
+  display: none;
+}
+.profile button{
+  margin-top: -50%;
+  width: 50%;
+  margin-left: 70%;
+}
+
+.innerDiv {
+  display: flex;
+  flex-direction: column;
+  margin-top: -25%;
+  gap: 20px; 
+  padding:20px;
+  border-bottom: 1px solid #000000;
+}
+
+.content h1{
+  font-family: Poppins;
+  font-size: 14.98px;
+  font-weight: 400;
+  line-height: 22.47px;
+  text-align: left;
+}
+
+.content input{
+  background-color: #F9F9F9;
+  border: none;
+}
+
+.innerPay h1{
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: left;
+}
+
+.debitDiv {
+  display: flex;
+  align-items: center; /* Aligns items vertically */
+  justify-content: space-between; /* Ensures items are spaced out */
+  width: 100%; /* Adjust the width for mobile responsiveness */
+  max-width: 350px; /* Maximum width for each card item */
+  gap: 20px;
+  border: 0.5px solid #00000080;
+  border-radius: 12px;
+  padding: 10px;
+  margin-top: 3%;
+}
+
+
+ 
+.modalWrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* For dimming background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modalContent {
+  background-color: #fff;
+  padding: 20px;
+  width: 400px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.modalContent h1{
+  font-family: Poppins;
+  font-size: 24px;
+  width:500px;
+  font-weight: 600;
+  line-height: 48px;
+  text-align: left;
+}
+
+.formGroup {
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: flex-start;
+  gap:-10%;
+  margin-top: 2%;
+}
+
+.formGroup h1 {
+  margin: 0;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+}
+
+.formGroup .inputField {
+  width: 100%;
+  padding: 8px;
+  margin-top: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-left: -30%;
+}
+
+.btnGrp{
+  background:none;
+  width: 107.5%;
+  height: 80px;
+  margin-left: -3.5%;
+  margin-bottom: -5%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+}
+
+.saveButton {
+  background-color:#FC8A06;
+  color: white;
+  border: none;
+  padding: 10px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: -2px;
+  font-family: Poppins;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width:200px;
+}
+
+.saveButton:hover {
+  background-color: #45a049;
+}
+
+.closeButton {
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.removeButton{
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #663700;
+  color:white;
+  margin-right: 20%;
+}
+
+.payment{
+  margin-bottom: 16%;
+}
+
+}

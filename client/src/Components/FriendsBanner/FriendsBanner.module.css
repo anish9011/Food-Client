@@ -1,0 +1,279 @@
+.container {
+  background: linear-gradient(180deg, #EEEEEE 0%, #E0E1DC 100%);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; 
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  position: relative; 
+  gap: 20px;
+  border-radius: 12px;
+}
+
+.leftContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative; 
+}
+
+.leftContainer img {
+  width: 100%; 
+  max-width: 600px; 
+  height: auto; 
+  position: relative;
+  z-index: 2; 
+}
+  
+  .rightContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Aligns the content to the start (left) */
+    justify-content: flex-start; /* Aligns the items at the top */
+    position: relative; /* Makes sure z-index works properly */
+  }
+
+  
+  .logo img{
+      width:180px;
+      margin-left: -32%;
+      margin-top: 8%;  
+  }
+
+   .logo h1{
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 102px;
+    letter-spacing: -0.06em;
+    text-align: left;
+    margin-top: 8%;
+   }
+  
+ .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+
+ .text {
+  background-color: black;
+  border-radius: 100px;
+  height: 80px;
+  width: 130%;
+  padding-left: 30%;
+  padding-right: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -30%; 
+  margin-top: -5%;
+  position: absolute; 
+  top: 140%; 
+  left: 57%;
+  transform: translate(-50%, -50%);
+  z-index: 1; 
+}
+  .text h1 {
+    color: #FC8A06;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 81px;
+    margin-top: 0;
+    letter-spacing: -0.06em;
+    text-align: left;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+  }
+  
+  .text span {
+    color: white;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 81px;
+    letter-spacing: -0.06em;
+    text-align: left;
+    text-decoration: none;
+    text-decoration-style: solid;
+  }
+  
+  .content{
+    position: absolute;
+    top:162%;
+  }
+
+  .content h1{
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: -0.06em;
+    text-align: left;
+  }
+  
+  .imageContent{
+    position: absolute;
+    top:190%;
+  }
+
+  .imageFlex{
+    margin-left:10%;
+    margin-right:10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5%;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .imageFlex img{
+    width:460px;
+
+  }
+
+  @media (min-width: 400px) and (max-width: 600px) {
+    .container {
+      background: linear-gradient(180deg, #EEEEEE 0%, #E0E1DC 100%);
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: space-between;
+      align-items: flex-start; /* Align the items to the start (top) */
+      margin-top: 5%;
+      margin-left: 10%;
+      margin-right: 10%;
+      position: relative; /* Enables z-index management */
+      gap: 20px;
+    }
+    .leftContainer {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start; /* Keeps the image at the top */
+      position: relative; /* Enables z-index for its children */
+      margin-top: 40%;
+      margin-left: 10%;
+    }
+    
+    .leftContainer img {
+      width: 100%; /* Makes the image responsive */
+      max-width: 300px; /* Sets a maximum width */
+      height: auto; /* Maintains the aspect ratio */
+      position: relative; /* Keeps image within normal flow */
+      z-index: 2; /* Lower z-index to ensure it stays below the `.text` element */
+    }
+
+      
+  .rightContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Aligns the content to the start (left) */
+    justify-content: flex-start; /* Aligns the items at the top */
+    position: relative; /* Makes sure z-index works properly */
+    margin-left: 35%;
+
+  }
+  .logo img{
+    width:80px;
+    margin-left: -32%;
+    margin-top: 8%;  
+}
+
+ .logo h1{
+  font-family: Poppins;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 102px;
+  letter-spacing: -0.06em;
+  text-align: left;
+  margin-top: 8%;
+ }
+
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.text {
+  background-color: transparent;
+border-radius: 100px;
+height: 40px;
+width: 130%;
+padding-left: 30%;
+padding-right: 5%;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-left: -40%; 
+margin-top: -25%;
+position: absolute; 
+top: 140%; 
+left: 57%; 
+transform: translate(-50%, -50%); 
+z-index: 1; 
+}
+.text h1 {
+  color: #FC8A06;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 81px;
+  margin-top: 0;
+  letter-spacing: -0.06em;
+  text-align: left;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+}
+
+.text span {
+  color: white;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 81px;
+  letter-spacing: -0.06em;
+  text-align: left;
+  text-decoration: none;
+  text-decoration-style: solid;
+}
+
+.content{
+  position: absolute;
+  top:162%;
+}
+
+.content h1{
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: -0.06em;
+  text-align: left;
+  margin-top: -15%;
+  margin-left: -25%;
+  width: 400px;
+}
+
+.imageContent{
+  position: absolute;
+  top:150%;
+  left: -43%;
+}
+
+.imageContent img{
+  width:300px;
+}
+
+.imageFlex img{
+  width: 360px;
+}
+  }

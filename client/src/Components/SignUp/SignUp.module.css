@@ -1,0 +1,231 @@
+
+.mainBanner {
+    background-color: white; 
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    height: 100vh;
+    margin-bottom: 18%;
+  }
+  
+
+  .bannerOne {
+    margin-left: 25%;
+    margin-top: 10%;
+  }
+
+  .secImg {
+    margin-left: -40%;
+    margin-top: 10%;
+  }
+
+  .logo{
+    margin-left: -20%;
+  }
+
+
+  .bannerOne p{
+    margin-left: -40%;
+    margin-top: 6%;
+    color:#313957;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+  }
+.bannerOne h1{
+    color:#313957;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.inputContainer {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  margin-left: -40%;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  margin-top: 10%;
+  }
+  
+
+  .inputLabel {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #0C1421;
+  }
+
+
+
+  .inputContainer input{
+    width: 90%; 
+    padding: 0.7rem; 
+    border: 1px solid #00000066;
+    border-radius: 100px;
+    font-size: 1rem;
+    margin-top: 2%;
+  }
+
+  .inputContainer input[type="text"] {
+    width: 90%; 
+    padding: 0.7rem; 
+    border: 1px solid #00000066;
+    border-radius: 100px;
+    font-size: 1rem;
+    margin-top: 2%;
+  }
+
+  .signin {
+    text-align: left;
+    margin-left: -30%;
+    margin-top: 20px;
+    width: auto; /* Adjust as necessary to prevent constraints */
+}
+
+  .signin h1 {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28.8px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    margin-left: 5%;
+    gap: 0.5rem; /* Space between text and link */
+    color: #313957;
+    display: flex;
+    align-items: center; 
+    flex-wrap: nowrap; /* Prevent wrapping */
+    display: inline;
+}
+
+  
+  .signin a {
+    color: #FC8A06;
+    font-size: 14px;
+    text-decoration: none;
+    cursor: pointer; /* Add a pointer cursor for the link */
+    margin-left: 8px;
+  }
+  
+  .signin a:hover {
+    text-decoration: underline;
+  }
+  
+  .signin a:focus {
+    outline: none;
+    text-decoration: underline;
+  }
+  
+
+.bannerOne button{
+    width: 125%; 
+    padding: 12px 0px 12px 0px;
+    gap: 0px;
+    border-radius: 100px;
+    background-color:#FC8A06;
+    border: none;
+    margin-left: -40%;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color:white;
+    margin-top: 5%;
+}
+
+  .bannerTwo img {
+    max-width: 100%;
+    margin-left: 0%;
+    display: block; 
+    max-height: 200%;
+    padding: 20px;
+    height: auto;
+    margin-top: 2%;
+    border-radius: 8px;
+  }
+
+  @media (min-width: 400px) and (max-width: 600px) {
+  .bannerTwo {
+    display: none; 
+  }
+  .bannerOne {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: start; /* Center content vertically within bannerOne */
+    align-items: center; /* Center content horizontally within bannerOne */
+    text-align: center; /* Ensure text is centered */
+    margin-top: 0em;
+  }
+
+  .logo{
+    margin-left: -40%;
+  }
+
+  .inputContainer input{
+    width: 23em; 
+    padding: 0.7rem; 
+    border: 1px solid #00000066;
+    border-radius: 100px;
+    font-size: 1rem;
+    margin-left: 15%;
+  }
+
+  .inputContainer input[type="text"] {
+    width: 23em; 
+    padding: 0.7rem; 
+    border: 1px solid #00000066;
+    border-radius: 100px;
+    font-size: 1rem;
+    margin-left: 15%;
+  }
+
+  .inputLabel{
+    margin-left: 15%;
+  }
+  .signin{
+    margin-left: -30%;
+    margin-top: 20px;
+    width: 300px;
+  }
+
+  .signin h1 {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28.8px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    margin-left: 5%;
+    color: #313957;
+    display: inline; 
+}
+
+.signin h1 a {
+    margin-left: 8px;
+}
+
+
+  
+  .mainBanner{
+    margin-bottom: 40%;
+  }
+  .bannerOne button{
+    margin-left: -37%;
+    width:100%;
+}
+}
+
+

@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+.mainHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin: 2% 12%;
+}
+
+.mainImage {
+    height: 100px;
+    width: 100%;
+}
+
+.mainImage img {
+    height: 30px;
+    position: absolute;
+    top: -6%; 
+    left: -60%;
+}
+.mainImage{
+    position: absolute;
+    top:30%;
+    left:60%;
+}
+
+
+.title {
+    display: flex;
+    gap: 20px;
+    justify-content: center; 
+    flex-grow: 1; 
+    align-items: center;
+    margin-left: 10%;
+}
+
+.title h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: center;
+    margin: 0;
+    color: black;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.title h1:hover {
+    color: #FC8A06;
+}
+
+.title h1.active {
+    color: white;
+    background-color: #FC8A06;
+    padding: 5px 20px;
+    border-radius: 20px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #03081F;
+    border-radius: 35px;
+    padding: 15px 20px;
+    cursor: pointer;
+    width: auto;
+    height: 50px;
+    box-sizing: border-box;
+    position: relative;  /* Ensure the button is not overlapped by other elements */
+    z-index: 10;  /* Ensures the button is above any other elements */
+}
+
+.profile img {
+    height: 30px;
+}
+
+.profile h1 {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    margin: 0;
+}
+
+
+.Nav{
+    display: none;
+}
+
+@media (min-width: 400px) and (max-width: 600px) {
+    .mainHeader{
+        display: none;
+    }
+    .Nav{
+        display: block;
+    }
+    .Nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding:20px;
+        border-bottom: 1px solid #0000004D;
+    }
+    .navText{
+        border-left: 1px solid #0000004D;
+        padding-left: 20px;
+        height: 100%;
+    }
+}

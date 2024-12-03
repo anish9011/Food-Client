@@ -1,0 +1,64 @@
+.container {
+    margin-top: 0%;
+    margin-left: -30%;
+    background-color: #03081FF7;
+    max-width: 25%;
+    padding: 60px;
+    border-radius: 12px;
+    position: absolute;
+    top: 10%; 
+    left: 50%; 
+    transform: translateX(-50%);
+    z-index: 9999; 
+}
+
+.container h1, .container h2, .container h3, .container span, .container h4 {
+    font-family: Poppins;
+    color: white;
+}
+
+.container h1 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 38px;
+}
+
+.container h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #FC8A06;
+}
+
+.container h3, .container span {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.container h4 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #FC8A06;
+}
+
+/* Ensure MapContainer doesn't hide the container */
+.MapContainer {
+    position: relative;
+    z-index: 1;
+    margin-left: 300px;
+}
+
+@media (min-width: 400px) and (max-width: 600px) {
+    .container {
+        margin-top: 30%;
+        margin-left: 5%;
+        background-color: #03081FF7;
+        max-width: 120%;
+        padding: 20px;
+        border-radius: 12px;
+        position: absolute;
+        top: 10%; 
+        left: 50%; 
+        transform: translateX(-50%);
+        z-index: 9997; 
+    }
+}

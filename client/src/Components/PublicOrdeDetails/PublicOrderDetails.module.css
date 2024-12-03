@@ -1,0 +1,332 @@
+.arrowbanner {
+    margin-left: 7%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: -10%;
+    width: 30%;
+}
+
+.arrowbanner h1 {
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    text-align: left;
+}
+
+.flexBox {
+    margin-left: 7%;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.firstFlex {
+    border: 1px solid #03081F;
+    border-radius: 12px;
+    padding: 10px;
+    width: 55%;  
+}
+
+.image img{
+    width:50px;
+}
+
+.notes h1{
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: left;
+    color: #83858A;
+}
+
+.notes .input{
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: left;
+    color: #83858A;
+    padding:10px;
+    border-radius: 100px;
+    border: 1px solid #202938;
+    width: 100%;
+}
+
+.secondFlex {
+    width: 45%; 
+    margin-top: 15%;
+    position: absolute;
+    top:45%;
+    left:58%;
+}
+    
+
+.innerFlex {
+    border-bottom: 1px solid #202938;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    gap: 30px;
+}
+
+.itemFood h1 {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: #03081F;
+}
+
+.itemFood h2 {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: left;
+    color: #83858A;
+}
+
+.innerFlex > h1 {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 25px;
+    text-align: right;
+    color: #028643;
+    margin-left: auto; 
+}
+
+.secondFlex {
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.markFlex {
+    display: flex;
+    justify-content: space-between; /* Equal spacing between child elements */
+    align-items: center; /* Center align vertically */
+    border: 1px solid #03081F; /* Dark border */
+    border-radius: 56px; /* Rounded pill-like shape */
+    padding: 10px; /* Internal spacing */
+    padding-top: 25px;
+    padding-bottom: 15px;
+    width: 100%; /* 80% of its container width */
+    max-width: 800px; /* Optional: Limit max width for larger screens */
+    height: 60px; /* Fixed height */
+    box-sizing: border-box; /* Include padding and border in dimensions */
+    margin: 10px auto; /* Center the container horizontally */
+    position: relative;
+
+}
+
+.outerFlex{
+    border-bottom: 1px solid #202938;
+    width: 70%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: flex-start; /* Align child items to the left */
+    align-items: center; /* Vertically centers the items */
+    margin-top: -52%;
+}
+
+.mark {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #2D3748;
+    padding: 10px;
+    margin-bottom: 2%;
+    border-radius: 50%; /* Makes it perfectly round */
+}
+
+.address h1 {
+    font-family: Switzer;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18.2px;
+    text-align: left;
+}
+
+.address h2 {
+    font-family: Switzer;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: left;
+    max-width: 40%; 
+    word-wrap: break-word; 
+    margin-bottom: 10px;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    color: #83858A;
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align text to the top */
+    align-items: flex-start; /* Align text to the left */
+    padding: 15px;
+    width: 100%;
+}
+
+.arrowRight {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Vertically center the arrow */
+    position: absolute;
+    top:35%;
+    left:90%;
+}
+
+.taxiItems{
+    margin-left: 10%;
+    margin-right: 20%;
+    padding-top: 10px;
+    border-bottom: 1px solid #202938
+}
+
+.item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item h1{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    text-align: left;
+    color: #83858A;
+}
+
+.item h2{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 25px;
+    text-align: right;
+    color: #83858A;
+}
+
+.tax h1{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    text-align: left;
+    color: #83858A;
+}
+
+.tax h2{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 25px;
+    text-align: right;
+    color: #83858A;
+}
+.tax{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subTotal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subTotal h1{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    color: #83858A;
+    padding:10px;
+    margin-left: 8%;
+}
+
+.subTotal h2{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+    margin-right: 20%;
+}
+
+.button button {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.2px;
+    text-align: center;
+    background-color: #FC8A06;
+    border: none;
+    padding: 14px 20px;
+    width: 70%;
+    margin-left: 10%;
+    border-radius: 100px;
+    color: white;
+    margin-top: 2%;
+    height: auto; 
+    display: block; 
+    cursor: pointer;
+}
+
+.button button:hover {
+    background-color: #e67e22; 
+}
+
+@media (min-width: 400px) and (max-width: 600px) {
+    .flexBox {
+        margin-left: 1%;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .firstFlex {
+        border: 1px solid #03081F;
+        border-radius: 12px;
+        padding: 10px;
+        width: 95%;  
+    }
+    .arrowbanner {
+        margin-left: 7%;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: -10%;
+        width: 80%;
+    }
+    
+    .arrowbanner h1 {
+        font-family: Poppins;
+        font-size: 26px;
+        font-weight: 600;
+        line-height: 48px;
+        text-align: left;
+    }
+    .secondFlex {
+        width: 135%;  /* The rest will be occupied by secondFlex */
+        margin-top: 75%;
+        margin-left: 12%;
+    }
+        
+}

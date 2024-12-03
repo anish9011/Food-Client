@@ -1,0 +1,229 @@
+.testimonials{
+  padding: 40px;
+  background-color: #D9D9D9;
+  margin-top: 2%;
+}
+
+.testimonials h1{
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 66px;
+  text-align: left;
+  margin-bottom: 0%;
+}
+
+.headerTestimonial{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerTestimonial h1{
+  margin-top: 4%;
+  margin-left: 2.8%;
+}
+
+
+.buttonGrp{
+  margin-top: -2%;
+  margin-right: 2.6%;
+}
+
+.mainBanner{
+  display: flex;
+  justify-content: space-between;
+  gap:2%;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+  
+  .testimonial h1 {
+    font-family: 'Poppins', sans-serif; /* Ensure Poppins is imported in your project */
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 66px;
+    text-align: left;
+    margin-left: 5%;
+  }
+  
+  .innerHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .buttonGrp button {
+    background: none;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+  }
+  
+  .buttonGrp button img {
+    width: 100%;
+    height: auto;
+  }
+  
+ .NewBanner{
+  width: 40%;
+  background-color: white;
+  padding: 60px;
+ }
+
+ .banner{
+    display: flex;
+    justify-content: space-between;
+    gap:70%;
+ }
+
+ .profileName{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+
+  .firstBanner{
+    display: flex;
+    justify-content: space-between;
+    gap:10px;
+    width:25%;
+    margin-top: 5%;
+  }
+
+  .firstBanner h2{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    margin-left: -57px;
+  }
+
+  .firstBanner h3 {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: #FC8A06;
+    white-space: nowrap;  /* Prevent the text from wrapping */
+    overflow: hidden;     /* Hide overflow if the text exceeds the container */
+    text-overflow: ellipsis; /* Optionally add an ellipsis if text is too long */
+  }
+  
+  
+  .secondBanner {
+    margin-left: -70%;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  .secondBanner > img {
+    width: 20px;
+    margin-top: 12%;
+  }
+  
+  .starGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Align items to the left */
+    justify-content: center; /* Center content vertically */
+    gap: 5px; /* Add spacing between the image and the text */
+  }
+  
+  .starGroup h1 {
+    font-family: 'Poppins', sans-serif; /* Ensure Poppins is imported */
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5; /* Use relative line height for better scalability */
+    text-align: left;
+    white-space: nowrap; /* Prevent text from wrapping */
+  }
+
+  .reviewText{
+    margin-top: 5%;
+    text-align: justify;
+  }
+
+  
+  .testimonials {
+  position: relative;
+}
+
+.mainBanner {
+  max-height: 500px; /* Set the height limit for the scrollable container */
+  overflow-y: auto;
+}
+
+.testimonials {
+  padding: 20px;
+}
+
+.headerTestimonial {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.buttonGrp {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.mainBanner {
+  display: flex;
+  justify-content: center;
+}
+
+.scrollContainer {
+  display: flex;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  gap: 20px; /* Space between the testimonials */
+  padding: 10px 0;
+  width: 100%; /* Ensure it takes up full width */
+}
+
+.NewBanner {
+  min-width: 30em; /* Adjust based on the size of your testimonials */
+  flex-shrink: 0; /* Prevent shrinking */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  height: 16em;
+  margin-bottom: 5%;
+}
+
+.reviewText {
+  margin-top: 5%;
+  padding-top: 10px;
+}
+
+button {
+  cursor: pointer;
+}
+
+@media (min-width: 400px) and (max-width: 600px) {
+    .testimonials{
+      margin-top: 10%;
+      position: relative;
+      padding:40px;
+      margin-bottom: 5%;
+    }
+    .buttonGrp{
+        position: absolute;
+        top:88%;
+        left:35%;
+    }
+    .buttonGrp button{
+      width: 70px;
+    }
+}

@@ -1,0 +1,233 @@
+.footerBanner {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
+    background-color: #D9D9D9;
+    width: 100%;
+    padding: 45px;
+    position: relative; /* Optional, ensure it's positioned properly */
+}
+
+
+.firstFlex{
+    margin-top: 3%;
+    margin-left:3%;
+}
+
+.firstFlex >img{
+    width:200px;
+}
+
+.badges img{
+    width:300px;
+}
+
+
+.badges{
+    margin-top:6%;
+}
+
+.firstFlex p{
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    color:black;
+    line-height: 10px;
+    margin-top: 5%;
+}
+
+.secondFlex p{
+    margin-top: 2%;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 43px;
+    text-align: left;
+    color: #03081F;
+    margin-left: 5%;
+}
+
+.secondFlex{
+    position: relative;
+}
+
+.input{
+    padding: 13px;
+    border-radius:100px;
+    width: 260px;
+    border:none;
+    background-color: #cacaca;
+}
+
+.button{
+    position: absolute;
+    top:22%;
+    left:55%;
+    padding: 7px;
+    border-radius:100px;
+    width: 120px;
+    border:none;
+    background-color: #FC8A06;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: center;
+    color:white;
+}
+
+.spam {
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 43px;
+    text-align: left;
+    color: #03081F;
+    width:300px;
+}
+
+.spam a{
+    color: #03081F;
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 43px;
+    text-align: left;
+}
+
+.social{
+    display:flex;
+    justify-content: space-around;
+}
+
+.thirdFlex,.fourthFlex{
+    margin-top:2%;
+}
+
+.thirdFlex h1,.fourthFlex h1{
+    color: #03081F;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 43px;
+    text-align: left;
+    margin-left: -40px;
+}
+
+.thirdFlex li a,.fourthFlex li a {
+    color: black;
+    text-decoration: underline;
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+}
+
+.thirdFlex li ,.fourthFlex li{
+    list-style: none;
+    margin-top: 8px;
+    margin-left: -40px;
+}
+
+.fourthFlex{
+    margin-right: 3%;
+}
+
+@media (min-width: 400px) and (max-width: 600px) {
+    .footerBanner {
+        margin-top: -5%;
+      display: flex;
+      flex-direction: column; 
+    }
+    .social{
+        justify-content:flex-start;
+        margin-left: 18%;
+    }
+    .firstFlex,.secondFlex, .thirdFlex,.fourthFlex{
+        margin-left:13%;
+    }
+    .secondFlex button{
+        margin-right: 30%;
+    }
+    .firstFlex >img{
+        margin-left: 12%;
+    }
+    .badges{
+        margin-left: -5%;
+    }
+    .firstFlex p{
+        text-align: center;
+        margin-left:-12%;
+    }
+    .secondFlex {
+        margin-top: 15%;
+        position: relative;
+    }
+    .secondFlex input{
+        margin-left: -5%;
+    }
+    .button{
+        position: absolute;
+        left:-40%;
+        margin-left: 90%;
+        top: 26%;
+    }
+    .thirdFlex,.fourthFlex{
+        margin-left: 15%;
+    }
+    .content .flexTwo{
+        display: none;
+    }
+    .content .flexOne{
+        text-align: center;
+        margin-left: 13%;
+    }
+  }
+  
+  @media (min-width: 481px) and (max-width: 600px) {
+    .footerBanner{
+        margin-top: -15%;
+    }
+  }
+
+
+@media (min-width: 600px) and (max-width: 1024px) {
+    .footerBanner{
+        margin-top: -30%;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .footerBanner{
+        margin-top: -4%;
+    }
+}
+
+.content{
+    background-color: #03081F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.content h1{
+    color:white;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22.5px;
+    text-align: left;
+}
+
+.flexTwo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:20px;
+}
+

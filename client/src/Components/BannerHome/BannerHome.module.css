@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+.container {
+    margin: 2% 10%;
+    margin-right: 13%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading h1{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4%; /* Reduced gap for better spacing */
+}
+
+.flexbox h1 {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.flexbox h2 {
+    border: 1px solid #FC8A06;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    border-radius: 100px;
+    padding: 15px 20px; 
+    line-height: 1.2em; 
+    white-space: nowrap; 
+    text-overflow: ellipsis;
+}
+
+.flexContents {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    overflow-x: auto; 
+    white-space: nowrap; 
+    gap:20px;
+}
+
+.flexContents img{
+    width: 300px;
+}
+
+.content{
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-right: 10%;
+}
+
+.content h1{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    margin-bottom: 3%;
+}
+
+.imageFlex{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.imageFlex img{
+    width:150px;
+}
+
+
+
+.innerbody {
+    background-color: #F5F5F5;
+    margin-top:-6%;
+    padding: 8% 0 5% 8%;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.innerbody h1{
+    text-align: left;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 27px;
+    line-height: 1.2; 
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+
+.innerbody p{
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 19.5px;
+    text-align: left;
+    color: #FC8A06;
+    padding: 2%;
+    margin-left: -2%;
+    margin-top: -5%;
+}
+
+@media (min-width: 400px) and (max-width: 600px) {
+    .heading h1{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 48px;
+        text-align: left;
+        width:300px;
+    }
+
+    .flexbox h1{
+        display: none;
+    }
+    .flexbox h2{
+        padding: 7px 10px; 
+        margin-left: -55%;
+        font-size: 8px;
+    }
+    .imageFlex{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        background-color: #D9D9D980;
+        padding: 20px;
+    }
+
+    .imageContent{
+        margin-top: 2%;
+    }
+    
+    .content .heading{
+        margin-top: 2%;
+    }
+
+    .imageFlex img{
+        width:140px;
+    }
+    
+}

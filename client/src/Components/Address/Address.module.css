@@ -1,0 +1,414 @@
+.arrowbanner {
+    margin-left: 9%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: -20%;
+    width: 27%;
+  }
+  
+  .arrowbanner h1 {
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    text-align: left;
+  }
+  
+  .innerDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px dashed #AFAFAF;
+    width: 93%;
+    padding: 40px;
+    margin-left: 10%;
+    border-radius: 10px;
+    position: relative;
+  }
+  
+  .innerDiv img {
+    position: absolute;
+    top: 15%;
+    left: 130%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 50px;
+  }
+  
+  .innerDiv h1 {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    color: #03081F;
+    white-space: normal;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modalContent {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .input {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .stateSelect {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .closeButton {
+    background-color: #f44336;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .closeButton:hover {
+    background-color: #d32f2f;
+  }
+  
+  .address {
+    display: grid;                
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap: 10px;                    
+    padding: 10px;
+    margin-right: 10%;
+    margin-left: 3%;
+    margin-bottom: 10%;
+  }
+  
+  .address img {
+    margin-left: -80%;
+  }
+  
+  .address h2 {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    text-align: left;
+    color: #3f3f3f;
+    margin-left: -165%;
+  }
+  
+  .firstModal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap:20px;
+  }
+
+  .secondModal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  .secondModal .textarea {
+    width: 100%;  
+    height: 150px; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical; 
+    font-family: Poppins, sans-serif; 
+    font-size: 14px; 
+  }
+
+  .save {
+    text-align: center; 
+    margin-top: 20px; 
+    margin-left: 80%;
+  }
+  
+  .save button {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: center;
+    padding: 20px;
+    background-color: #FC8A06;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    height: auto; 
+    width: 160%;  
+    max-width: 300px;
+    cursor: pointer; 
+  }
+  
+  .save button:hover {
+    background-color: #f57c00; 
+  }
+  
+  .inneraddrDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start; 
+    border: 1px dashed #AFAFAF;
+    width: 360px;
+    padding: 20px;
+    margin-left: 10%;
+    border-radius: 10px;
+    position: relative;
+    height: 200px; 
+  }
+  
+  .name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; 
+    gap: 20px;
+  }
+  
+  .name h1 {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.2px;
+    color: #03081F;
+    text-align: left;
+  }
+  
+  .name h2 {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.4px;
+    text-align: center;
+    color: #FC8A06;
+    background-color: #FFEDD8;
+    padding: 6px 12px; 
+    border-radius: 100px;
+  }
+  
+  .addr h1 {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-align: left;
+    margin-top: 10px;
+    color: #03081F;
+    width:300px;
+    white-space: nowrap;
+    overflow: hidden;    
+    text-overflow: ellipsis; 
+  }
+  
+  
+  .phone h1 {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-align: left;
+    margin-top: 30%;
+    color: #03081F;
+  }
+  
+  .edit {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px; 
+    position: absolute;
+    margin-top: 50px;
+    top: 60%;
+    left:6%;
+  }
+  
+  .edit h1 {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    color: #FC8A06;
+    border-right: 1px solid #AFAFAF;
+    padding-right: 10px;
+    cursor: pointer;
+  }
+  
+  .edit h2 {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    color: #FC8A06;
+    padding-left: 10px;
+    cursor: pointer; 
+    margin-left: -5%;
+  }
+  
+  .selected {
+    border: 2px solid black;
+  }
+  
+.address1{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-left: -75%;
+}
+
+.address1{
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.15000000596046448px;
+  text-align: left;
+  color: var(--color-gray-90, #3F3F3F);
+}
+
+  @media (min-width: 400px) and (max-width: 600px) {
+    .arrowbanner {
+      margin-left: 7%;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: -10%;
+      width: 70%;
+  }
+    .arrowbanner h1 {
+      font-family: Poppins;
+      font-size: 26px;
+      font-weight: 600;
+      line-height: 48px;
+      text-align: left;
+  }
+    .address {
+      display: flex;                
+      flex-direction: column;        
+      gap: 10px;                     
+      padding: 10px;
+      margin-right: 10%;
+      margin-left: 3%;
+      margin-bottom: 25%;
+  }
+  .innerDiv {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px dashed #AFAFAF;
+    width: 90%;
+    padding: 40px;
+    margin-left: 10%;
+    border-radius: 10px;
+    position: relative;
+    height: 100px;
+  }
+  
+  .innerDiv img {
+    position: absolute;
+    top: 25%;
+    left: 105%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 50px;
+  }
+  
+  .innerDiv h1 {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    color: #03081F;
+    white-space: normal;
+    text-align: center;
+    margin-top: -1%;
+    margin-right: 25%;
+  }
+  .modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modalContent {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .address1{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left:-138%
+  }
+   .address1 img{
+    width:20px;
+    margin-left: -100%;
+  }
+  .firstModal{
+    display: flex;
+    flex-direction: column;    
+  }
+
+  .secondModal{
+    margin-top: 6%;
+  }
+
+  .save{
+    margin-left: 0%;
+    width:100%;
+  }
+
+  .inneraddrDiv{
+    margin-left: 9.5%;
+    width:320px;
+  }
+  }

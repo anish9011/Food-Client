@@ -1,0 +1,328 @@
+.arrowbanner {
+    margin-left: 9%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: -10%;
+    width: 30%;
+  }
+  
+  .arrowbanner h1 {
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    text-align: left;
+  }
+  
+  .Container{
+    padding:20px;
+    width:60%;
+  }
+
+  .innerDiv {
+    border: 1px solid #FFE8CE;
+    display: flex;
+    justify-content: flex-start; /* Align items at the start by default */
+    align-items: center;
+    border-radius: 56px;
+}
+
+.innerDiv .arrow {
+    margin-left: 75%; /* Push this item to the right end */
+}
+
+
+  .innerDiv img{
+        margin-top: 20%;
+        width:70px;
+  }
+
+  .innerDiv h1{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 23.4px;
+    text-align: left;
+  }
+
+  .innerDiv h2{
+    font-family: Poppins;
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: left;
+    color: #83858A;
+    width:150px;
+  }
+
+  .outerDiv{
+    border-bottom: 1px solid #000000;
+    padding:15px;
+  }
+
+  .arrow img{
+        width:10px;
+        margin-left: -135px;
+  }
+
+  
+  .outerDiv1{
+    padding:15px;
+  }
+
+  .innerDiv1{
+    border: 1px solid #FFE8CE;
+    display: flex;
+    justify-content: flex-start; /* Align items at the start by default */
+    align-items: center;
+    border-radius: 56px;
+    height: 60px;
+    gap:25px;
+  }
+
+  .innerDiv1 h1{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    text-align: center;
+  }
+
+  .innerDiv1 img{
+    margin-top: 20%;
+    width:30px;
+    margin-left: 45%;
+}
+
+.checkbox {
+    margin-left: auto;  /* This will push the checkbox to the right */
+    margin-right: 4%;
+}
+
+.checkbox input[type="checkbox"] {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1.5px solid #83858A;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkbox input[type="checkbox"]:checked {
+    background-color: #000;
+    border: 1.5px solid #83858A;
+}
+
+.image2 img{
+    width:20px;
+    margin-left: 90%;
+}
+
+.mainContainer{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.secondFlex{
+    margin-top: -24%;
+    padding:20px;
+    border-radius: 12px;
+    height:10%;
+    position: absolute;
+    left: 60%;
+    top:70%;
+  }
+
+.outerFlex{
+    border-bottom: 1px solid #000000;
+    border: 1px solid #000000;
+    border-radius: 12px;
+    padding:20px;
+
+}
+
+.flexOne{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:100px;
+    padding:10px;
+    border-bottom: 1px solid #000000;
+}
+
+.flexOne h1{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    width:220px;
+}
+
+.flexOne h2{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+}
+
+.flexTwo button{
+    margin-top: 5%;
+    background-color: #FC8A06;
+    border:none;
+    width:100%;
+    height: 45px;
+    border-radius: 100px;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modalContent {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 400px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.modalContent h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.formGroup {
+  margin-bottom: 15px;
+}
+
+label {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+input[type="text"], input[type="month"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+.formActions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 15px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+button[type="submit"] {
+  background-color:#FC8A06;
+  color: white;
+}
+
+button[type="button"] {
+  background-color: #f44336;
+  color: white;
+}
+
+
+@media (min-width: 400px) and (max-width: 600px) {
+  .mainContainer{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50%;
+}
+  
+  .Container{
+    padding:10px;
+    width:100%;
+    margin-bottom: 15%;
+  }
+  .arrow{
+    position: absolute;
+    left:30%;
+  }
+  .arrow img{
+    width: 10px;
+  }
+
+  .arrowbanner {
+    margin-left: 7%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: -10%;
+    width: 70%;
+}
+  
+    .arrowbanner h1 {
+        font-family: Poppins;
+        font-size: 26px;
+        font-weight: 600;
+        line-height: 48px;
+        text-align: left;
+    }
+
+    .secondFlex{
+      margin-top: -5%;
+      padding:20px;
+      border-radius: 12px;
+      height:10%;
+      width:100%;
+  }
+  
+  .outerFlex{
+      border-bottom: 1px solid #000000;
+  }
+  
+  .flexOne{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap:100px;
+      padding:10px;
+  }
+
+  .secondFlex{
+    margin-top: -25%;
+    padding:20px;
+    border-radius: 12px;
+    height:10%;
+    position: absolute;
+    left: 0%;
+    top:110%;
+  }
+}
