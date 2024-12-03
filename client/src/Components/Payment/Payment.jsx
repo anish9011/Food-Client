@@ -15,7 +15,7 @@ import { Url } from '../../Utils.js/Url';
 const fetchCards = async () => {
     const token = localStorage.getItem('token');
     try {
-      const response = await fetch(`http://localhost:5000/api/user`, {
+      const response = await fetch(`https://food-server-2.onrender.com/api/user`, {
         method: 'GET',
         headers: {
           'Authorization': `Bearer ${token}`,
