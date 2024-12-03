@@ -82,10 +82,9 @@ export default function OrderDetails() {
         if (response.status === 200 && response.data.data.selected) {
           setAddress(response.data.data);
           setIsSuccess(true);
-          toast.success('Selected address fetched successfully!');
         } else {
           setIsFailed(true);
-          toast.error('No selected address found');
+          toast.error('select the address ');
         }
       } catch (err) {
         console.error('Error fetching selected address:', err);
