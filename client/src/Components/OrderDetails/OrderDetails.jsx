@@ -89,7 +89,6 @@ export default function OrderDetails() {
       } catch (err) {
         console.error('Error fetching selected address:', err);
         setIsFailed(true);
-        toast.error(err.response?.data?.message || 'Failed to fetch selected address');
       } finally {
         setIsFetching(false);
       }
